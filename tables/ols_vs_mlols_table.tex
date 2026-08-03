@@ -1,0 +1,23 @@
+\begin{table}
+\caption{Original OLS and ML-OLS (DML-PLR) Estimates}
+\label{tab:ols_vs_mlols_table}
+\begin{tabular}{lcc}
+\toprule
+Estimator & Column 2 & Column 5 \\
+\midrule
+Original & -0.076*** (0.029) & -0.103*** (0.034) \\
+Linear & -0.112*** (0.030) & -0.125*** (0.033) \\
+Ridge & -0.103*** (0.029) & -0.111*** (0.029) \\
+LASSO & -0.100*** (0.030) & -0.105*** (0.032) \\
+Elastic Net & -0.101*** (0.029) & -0.107*** (0.029) \\
+Polynomial Ridge & -0.091** (0.042) & -0.114*** (0.038) \\
+SVR & -0.103*** (0.032) & -0.094*** (0.033) \\
+Kernel Ridge & -0.115*** (0.031) & -0.116*** (0.032) \\
+Random Forest & -0.090*** (0.033) & -0.098*** (0.032) \\
+Extra Trees & -0.105*** (0.030) & -0.110*** (0.030) \\
+Gradient Boosting & -0.082** (0.035) & -0.094*** (0.034) \\
+\bottomrule
+\\[-0.5em]
+\multicolumn{3}{p{0.95\linewidth}}{\footnotesize Notes: Entries are coefficients on log slave exports per unit land area. Original rows reproduce Nunn (2008) with the conventional standard errors printed in the paper. ML rows use 5-fold cross-fitting repeated 500 times, with one common fold partition shared by all nuisance functions within a repeat. Coefficients are medians across repeats; standard errors use the median aggregation of Chernozhukov et al. (2018), $\widehat{se} = \sqrt{\mathrm{med}_r[se_r^2 + (\hat\theta_r - \tilde\theta)^2]}$, combining within-split uncertainty and split variation. * p<0.10, ** p<0.05, *** p<0.01.}\\
+\end{tabular}
+\end{table}

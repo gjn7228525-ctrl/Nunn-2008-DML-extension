@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+\centering
+\caption{Test of $H_0:\theta_{ML}=\theta_{Orig}$, IV Specifications}
+\label{tab:iv_difference_test}
+\begin{tabular}{lcccc}
+\toprule
+ & \multicolumn{2}{c}{Column 3} & \multicolumn{2}{c}{Column 4} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+Learner & $\hat\theta_{ML}-\hat\theta_{Orig}$ & $t$ & $\hat\theta_{ML}-\hat\theta_{Orig}$ & $t$ \\
+\midrule
+\textit{Benchmark} $\hat\theta_{Orig}$ (SE) & \multicolumn{2}{c}{$-0.286$ (0.153)} & \multicolumn{2}{c}{$-0.221$ (0.078)} \\
+\midrule
+Linear & $+0.031$ [0.168] & 0.18 & $+0.022$ [0.095] & 0.23 \\
+Ridge & $+0.035$ [0.170] & 0.21 & $+0.011$ [0.108] & 0.10 \\
+LASSO & $+0.013$ [0.175] & 0.08 & $+0.035$ [0.113] & 0.31 \\
+Elastic Net & $+0.004$ [0.176] & 0.02 & $+0.022$ [0.109] & 0.20 \\
+Polynomial Ridge & $+0.126$ [0.206] & 0.61 & $+0.099$ [0.120] & 0.83 \\
+SVR & $+0.068$ [0.185] & 0.37 & $+0.103$ [0.105] & 0.98 \\
+Kernel Ridge & $+0.002$ [0.190] & 0.01 & $+0.040$ [0.107] & 0.38 \\
+Random Forest & $+0.043$ [0.208] & 0.21 & $+0.107$ [0.139] & 0.77 \\
+Extra Trees & $+0.062$ [0.174] & 0.36 & $+0.073$ [0.123] & 0.60 \\
+Gradient Boosting & $-0.000$ [0.209] & -0.00 & $+0.052$ [0.132] & 0.39 \\
+\bottomrule
+\multicolumn{5}{p{0.95\linewidth}}{\footnotesize Notes: This table reports ONLY the test of $H_0:\theta_{ML}=\theta_{Orig}$; the underlying coefficients are in the companion table. Each cell gives $\hat\theta_{ML}-\hat\theta_{Orig}$ with the pooled standard error $\sqrt{SE_{ML}^2+SE_{Orig}^2}$ in brackets, and the adjacent column the implied $t=(\hat\theta_{ML}-\hat\theta_{Orig})/\sqrt{SE_{ML}^2+SE_{Orig}^2}$; $p$-values are two-sided normal. $\hat\theta_{Orig}$ is our replication of the corresponding published column, with the conventional (homoskedastic) standard error used in the paper; $SE_{ML}$ is the median-aggregated DML standard error over 500 repeats. Both estimators are computed on the same countries, so $\mathrm{Cov}(\hat\theta_{ML},\hat\theta_{Orig})>0$; setting it to zero inflates the denominator and makes the test conservative against rejecting equality. A non-significant entry should therefore be read as no detectable divergence from the published estimate under this convention. * p<0.10, ** p<0.05, *** p<0.01.}\\
+\end{tabular}
+\end{table}
