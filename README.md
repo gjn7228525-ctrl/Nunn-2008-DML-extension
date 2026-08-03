@@ -33,7 +33,7 @@ The machine-learning methods are used only to estimate the nuisance functions. T
 
 The complete analysis can be opened and executed in Google Colab:
 
-[Open in Google Colab](https://colab.research.google.com/github/gjn7228525-ctrl/Nunn-2008-DML-extension/blob/main/code/Nunn_2008_DML_extension.ipynb)
+[Open in Google Colab]([https://colab.research.google.com/github/gjn7228525-ctrl/Nunn-2008-DML-extension/blob/main/code/Nunn_2008_DML_extension.ipynb](https://colab.research.google.com/drive/1MpYdzEj6YVaBt0oOsKeu1QoKJ9J__1-W?usp=sharing))
 
 ## Repository Structure
 
@@ -43,13 +43,13 @@ Nunn-2008-DML-extension/
 ├── data/
 │   └── slave_trade_QJE.dta
 ├── code/
-│   └── Nunn_2008_DML_extension.ipynb
+│   └── ML_extension_Nunn_(2008).ipynb
 ├── report/
-│   └── extension_report.pdf
+│   └── Guo_Jiani_ExtensionReport.pdf
 ├── poster/
-│   └── extension_poster.pdf
+│   └── Guo_Jiani_ExtensionPoster.pdf
 ├── output/
 │   ├── tables/
 │   └── figures/
-├── requirements.txt
+├── AI_DISCLOSURE.md
 └── .gitignore
