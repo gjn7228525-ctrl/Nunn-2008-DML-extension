@@ -7,8 +7,7 @@ The machine-learning extension applies Double Machine Learning (DML) to the orig
 
 The complete analysis can be opened and executed in Google Colab:
 
-[![Open In Colab]
-https://colab.research.google.com/drive/1MpYdzEj6YVaBt0oOsKeu1QoKJ9J__1-W?usp=sharing
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MpYdzEj6YVaBt0oOsKeu1QoKJ9J__1-W?usp=sharing)
 
 ## Research Question
 
