@@ -42,14 +42,10 @@ Nunn-2008-DML-extension/
 ├── README.md
 ├── data/
 │   └── slave_trade_QJE.dta
-├── code/
-│   └── ML_extension_Nunn_(2008).ipynb
-├── report/
-│   └── Guo_Jiani_ExtensionReport.pdf
-├── poster/
-│   └── Guo_Jiani_ExtensionPoster.pdf
-├── output/
-│   ├── tables/
-│   └── figures/
+├── ML_extension_Nunn_(2008).ipynb
+├── Guo_Jiani_ExtensionReport.pdf
+├── Guo_Jiani_ExtensionPoster.pdf
 ├── AI_DISCLOSURE.md
+├── figures/
+├── tables/
 └── .gitignore
