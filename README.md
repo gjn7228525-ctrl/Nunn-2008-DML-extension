@@ -3,6 +3,12 @@
 This project replicates and extends Nunn (2008), *The Long-Term Effects of Africa's Slave Trades*. The original paper examines the long-term relationship between historical slave exports and modern economic development in African countries.
 
 The machine-learning extension applies Double Machine Learning (DML) to the original OLS and instrumental-variable specifications. Machine-learning methods are used to estimate the nuisance functions, while the original causal identification strategy is preserved.
+## Run the Analysis
+
+The complete analysis can be opened and executed in Google Colab:
+
+[![Open In Colab]
+https://colab.research.google.com/drive/1MpYdzEj6YVaBt0oOsKeu1QoKJ9J__1-W?usp=sharing
 
 ## Research Question
 
@@ -29,11 +35,6 @@ The analysis includes:
 
 The machine-learning methods are used only to estimate the nuisance functions. The final causal parameter is estimated using the original strategy.
 
-## Run the Analysis
-
-The complete analysis can be opened and executed in Google Colab:
-
-[Open in Google Colab]([https://colab.research.google.com/github/gjn7228525-ctrl/Nunn-2008-DML-extension/blob/main/code/Nunn_2008_DML_extension.ipynb](https://colab.research.google.com/drive/1MpYdzEj6YVaBt0oOsKeu1QoKJ9J__1-W?usp=sharing))
 
 ## Repository Structure
 
